@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#toDoList{
+    max-width: 900px;
+    border-radius: 8px;
+    margin: 100px auto;
+    padding: 50px;
+    color: #000000;
+    background-color: #E2D0CD;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li{
+    background-color: #fff;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 5px;
+    margin-right: 28px;  
+    border-radius: 8px;
+}
+li::marker{
+    color: rebeccapurple;
+    font-size: 18px;
+}

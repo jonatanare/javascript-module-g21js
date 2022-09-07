@@ -1,0 +1,1 @@
+// Declaracion de una función que pasará como parametro
